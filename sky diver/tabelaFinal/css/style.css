@@ -215,7 +215,8 @@ tr th{
 	border-right: 0;
 	border-left: 0;
 	border-bottom: 0;
-	padding-right: 20px;
+	
+	padding: 5px 20px 5px 0;
 }
 
 tr td{
@@ -226,8 +227,52 @@ tr td{
 	border-bottom: 0;
 	margin-bottom: 10px;
 	padding-right: 20px;
-	margin-top: 30px;
+	padding: 5px 0 5px 0;
+	text-align: center;
 }
+
+
+.slot-form-container {
+	width: 40%;
+	margin: 18px auto 0 auto;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+
+
+.label{
+	display: block;
+	margin-bottom: 5px;
+	line-height: 15px;
+}
+
+.slot-form-container input,
+.slot-form-container select {
+		height: 20px;
+		padding: 15px;
+		width: 100%;
+		outline: none;
+}
+
+.slot-form-container button{
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	padding: 9px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 
 
