@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+
+} 
+
+nav {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: red;
+  font-size: 14px;
+  line-height: 16px;
+  
+  height: 40px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.clear-fix{
+	clear: both;
+}
+
+.acronym{
+	color: white;
+	margin-left: 15px;
+}
+
+.top-left{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.heart{
+	color:white;
+	margin-left: 45px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  margin: 10px 20px  0;
+
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+
+
+.header{
+	position: relative;
+	margin-bottom: 0;
+
+}
+
+.header a img {
+	height: 30px;
+	width: 70px;
+	position: absolute;
+	top:20px;
+	margin-left: 50px;
+}
+
+
+
+.intro{
+	width: 100%;
+	height: 646px;
+	background: url("images/city-scape.svg") no-repeat center;
+	background-size: cover;
+	
+}
+
+
+
+.build{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 48px;
+	line-height: 55px;
+	color: white;
+	position: absolute;
+	top: 33%;
+}
+
+
+.introP{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 200;
+	color: white;
+	width: 45%;
+	position: absolute;
+	top: 43%;
+}
+
+
+
+.busca{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 20px;
+	display: inline-block;
+	position: absolute;
+	color: white;
+	top: 2.5%;
+	left: 10%;
+	padding: 0.6% ;
+	width: 75%;
+	background-color: rgb(28,78,105);
+	border: 1px solid gray;
+	outline: none;
+
+}
+
+::-webkit-input-placeholder  { 
+	color:gray;
+	font-size: 14px;
+	font-weight: 200;	
+ }
+
+ .button{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 200;
+	font-style: normal;
+ 	border-radius: 70px;
+ 	color: white;
+ 	width: 250px;
+ 	height:50px;
+ 	background-color: #f09233;
+ 	position: absolute;
+ 	top: 64%;
+ 	cursor: pointer;
+ 	border: none;
+ 	outline: none;
+ }
+
+
+.enterprise {
+
+	background-color:rgb(39, 53, 71);
+	margin-top: 0;
+	width: 100%;
+	height: 700px;
+	position: relative;
+
+}
+
+
+.bg1{
+	background:url("images/collaboration.svg") no-repeat center;		
+	width: 600px;
+	height: 350px;
+	position: absolute;
+	top: 25%;
+
+}
+
+
+.content1 h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 44px;
+	line-height: 50px;
+	color: white;
+	position: absolute;
+	top: 22%;
+	left:55%
+}
+
+.content1 ul{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	width: 30%;
+	position: absolute;	
+	top: 41%;
+	left: 58%;	
+}
+
+
+.button-red{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 200;
+	font-style: normal;
+ 	border-radius: 70px;
+ 	color: white;
+ 	width: 250px;
+ 	height:50px;
+ 	background-color: red;
+ 	position: absolute;
+ 	left: 56%;	
+ 	top: 70%;
+ 	cursor: pointer;
+ 	border: none;
+ 	outline: none;
+}
+
+
+.img2{
+	background: url("images/forklift.svg");
+	width: 100%;
+	height: 550px;
+}
+
+.section2{
+	position: relative;
+}
+
+.what-is{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 41px;
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 33%;
+}
+
+
+.what-is-p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+	width: 30%;
+	position: absolute;
+	top: 42%;
+	left: 10%;
+}
+
+.button-black{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.35em;
+	font-weight: 200;
+	font-style: normal;
+ 	border-radius: 70px;
+ 	color: white;
+ 	width: 130px;
+ 	height:40px;
+ 	background-color: #34495e;
+ 	position: absolute;
+ 	left: 10%;	
+ 	top: 58%;
+ 	cursor: pointer;
+ 	border: none;
+ 	outline: none;
+}
+
+
+
+
+.build-blocks{
+	width: 100%;
+	height: 600px;
+	background-color: white;
+}
+
+.icon{
+	display: inline-block;
+	text-align: center;	
+	width: 33%;
+
+}
+
+.icon img{
+	height: 100px;
+	width: 100px;
+}
+
+.icon h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.blocks-text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	line-height: 41px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.icon p{
+	font-family: 'Open Sans', sans-serif;
+	width: 60%;
+	margin: 5% auto 0 auto;
+	
+}
+
+  .icon img:last-child{
+	padding-bottom: 300px;
+}
+
+
+.p-npm{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
